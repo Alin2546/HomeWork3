@@ -15,7 +15,7 @@ public class App {
      */
     public static void main(String[] args) {
         // Create a Zoo instance for animals
-        Zoo zoo = new Zoo();
+        Zoo<Animal> zoo = new Zoo<>();
 
         // Add various animals to the zoo
         zoo.add(new Mammals("Balena", 15, false));  // Add a mammal named "Balena"
